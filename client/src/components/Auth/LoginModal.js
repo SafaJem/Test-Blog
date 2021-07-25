@@ -29,7 +29,7 @@ const LoginModal = () => {
   
   const handleLogin = () => {
   dispatch(loginUser({userName,password}));
-  history.push("/dashboard");
+  history.push("/");
   setUserName("");
   setPassword("");
   };
